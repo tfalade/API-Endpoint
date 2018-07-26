@@ -42,12 +42,14 @@ Returns all counties with election results in the following format:
 
 
 GET http://your-service-here/counties?democratic_winner=Hillary%20Clinton&republican_winner=Ted%20Cruz
-	Returns the above results, but filtered to only show counties where the specified candidate received the most votes (including ties).
+	
+Returns the above results, but filtered to only show counties where the specified candidate received the most votes (including ties).
 
 
 
 
 GET /counties/19001
+
 Returns the results for the county with the specified FIPS code.
 
 {
