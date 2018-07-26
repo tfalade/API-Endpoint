@@ -48,7 +48,7 @@ Returns the above results, but filtered to only show counties where the specifie
 
 
 
-GET /counties/19001
+GET http://your-service-here/counties/19001
 
 Returns the results for the county with the specified FIPS code.
 
